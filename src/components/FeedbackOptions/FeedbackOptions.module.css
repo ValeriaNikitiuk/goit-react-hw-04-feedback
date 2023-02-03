@@ -1,0 +1,21 @@
+.options {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(159, 109, 14);
+}
+
+.button:first-child {
+    background-color: green;
+}
+
+.button:last-child{
+    background-color: brown;
+}
